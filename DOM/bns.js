@@ -20,3 +20,6 @@ console.log(baslik);
 
 const hatalarr=document.getElementsByClassName("error");
 console.log(hatalarr);
+
+const link = document.querySelector("a");
+console.log(link.getAttribute("href"));
