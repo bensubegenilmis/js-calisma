@@ -23,3 +23,10 @@ console.log(hatalarr);
 
 const link = document.querySelector("a");
 console.log(link.getAttribute("href"));
+link.setAttribute("href", "https://www.w3schools.com/"); //linki günceller
+link.textContent="w3schools"; //link adını değiştirir
+
+const pDegeri= document.querySelector("p");
+console.log(pDegeri.getAttribute("class"));
+pDegeri.setAttribute("class", "errorrr");
+pDegeri.setAttribute("style", "color:blue");
